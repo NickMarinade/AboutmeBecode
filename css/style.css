@@ -136,11 +136,11 @@ footer{
   
   
   /* Media Queries */
-@media(max-width: 768px){
+@media(max-width: 480px){
     header #branding,
     header nav,
     header nav li,
-    #boxes .box
+    #boxes .box, #table
     {
       float:none;
       text-align:center;
@@ -154,6 +154,8 @@ footer{
     #showcase h1{
       margin-top:40px;
     }
+
+   
   
 
   }
